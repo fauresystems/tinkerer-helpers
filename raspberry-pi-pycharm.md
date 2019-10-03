@@ -12,7 +12,7 @@ This tutorial is about using PyCharm IDE on a Windows machine to remotely execut
 
 ## 1. Step by step configuration
 
-#### Step 1: 
+### Step 1: 
 Ensure the Windows Machine and Raspberry Pi are part of the same Network.
 
 ### Step 2:
@@ -181,7 +181,7 @@ $ git rm --cached -r .idea
 ## 4. Debug DISPLAY configuration
 To run remote application in GUI (for *guizero* for example), add DISPLAY configuration in session environment variables:
 
-![](file:///C:\Projects\Dev\App\msvc\App16\Room%20Control\Documentation\screenshots\config-display.png)
+![](assets/config-display.png)
 
 
 ## 5. Credits
