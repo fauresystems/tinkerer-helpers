@@ -3,13 +3,22 @@
 # Remote Programming of Raspberry Pi using PyCharm
 This tutorial is about using PyCharm IDE on a Windows machine to remotely execute Python programs on Raspberry Pi. This step by step tutorial on how to remotely connect PyCharm to Raspberry Pi and use the Raspberry Pi python interpreter to execute the programs is tested on a Windows 10 machine and Raspberry Pi running Raspbian OS.
 
-## Step 1: 
+1. Step by step configuration
+2. Create git repository
+3. Share on GitHub
+4. Debug DISPLAY configuration
+5. Credits
+6. Author
+
+## 1. Step by step configuration
+
+#### Step 1: 
 Ensure the Windows Machine and Raspberry Pi are part of the same Network.
 
-## Step 2:
+### Step 2:
 Install PyCharm Professional Edition on your Windows machine.
 
-## Step 3:
+### Step 3:
 You need to get the IP Address of Raspberry Pi. To do so, open the Terminal window on raspberry pi and type the following command **ifconfig** (here it's **192.168.1.42**):
 ```bash
 pi@raspberrypi:~ $ ifconfig
@@ -40,7 +49,7 @@ wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-## Step 4:
+### Step 4:
 Create props project folder on the Raspebrry:
 ```bash
 pi@raspberrypi:~/Room $ pwd
@@ -51,31 +60,31 @@ PyTvScripter  Relay
 pi@raspberrypi:~/Room $ 
 ```
 
-## Step 5:
+### Step 5:
 Invoke your PyCharm IDE. Create a new Project. Go to File —> New Project —> Pure Python —> Give a Project Name. In this case it is PyTvScripter.
 
-## Step 6:
+### Step 6:
 Right Click on PyTvScripter and select New —> Python File and give a name to python file. In this case it is tvscripter.py
 
-## Step 7:
+### Step 7:
 Write the line `print("Hello RaspberryPi")` in the editor.
 
-## Step 8:
+### Step 8:
 Now go to File —> Settings —> Project: PyTvScripter —> Project Interpreter
 
 ![](assets/pycharm-remote-interpreter-1.png)
 
-## Step 9:
+### Step 9:
 On the right pane of the window, click on teh gear button at the end of Project Interpreter and select Add... Then select SSH Interpreter and fill in the New server configuration with the Raspberry IP address and *pi* user, then Apply:
 
 ![](assets/pycharm-remote-interpreter-2.png)
 
-## Step 10:
+### Step 10:
 Complete with credentials for *pi* user:
 
 ![](assets/pycharm-remote-interpreter-3.png)
 
-## Step 11:
+### Step 11:
 When connected to the Raspberry, browse remote drive to select **Python 3** interpreter:
 
 ![](assets/pycharm-remote-interpreter-4.png)
@@ -88,7 +97,7 @@ Now on Apply, deployment configuration is created automatically:
 
 ![](assets/pycharm-remote-deployment-configured.png)
 
-## Step 12:
+### Step 12:
 Click Configure... —> Mappings and set the correct path for deployment on the Raspberry:
 
 ![](assets/pycharm-remote-project-deployment-configuration.png)
@@ -97,36 +106,35 @@ Now go to File —> Settings —> Project: PyTvScripter —> Project Interpreter
 
 ![](assets/pycharm-remote-project-deployment-ssh-configuration.png)
 
-
-## Step 13:
+### Step 13:
 Now we need to upload the Python file created on our Windows machine on to Raspberry Pi and compile the program using Raspberry Pi Python Interpreter.
 
 Select PyTvScripter folder in Project left panel and go to Tools —> Deployment —> Upload to pi@192.168.1.42:22:
 
 ![](assets/pycharm-remote-interpreter-deploy.png)
 
-## Step 14:
+### Step 14:
 Click Add Configuration... button to add a Python Remote Debug configuration:
 * you don't have to do anything else (despite what is mentioned in the screenshot below, I guess PyCharm current version 2019.3 does it for us)
 
 ![](assets/pycharm-remote-project-add-configuration.png)
 
-## Step 15:
+### Step 15:
 Now got to Run —> Debug and start the remote debugging:
 
 ![](assets/pycharm-remote-project-debug.png)
 
-## Step 16:
+### Step 16:
 Verify the Debug configuration:
 
 ![](assets/pycharm-remote-project-debug-configuration.png)
 
-## Step 17:
+### Step 17:
 Start debug and select Debug panel:
 
 ![](assets/pycharm-remote-project-debug-panel.png)
 
-## Step 18:
+### Step 18:
 At first start, TvScripter App has created two files:
 * .config.yml
 * pytvscripter.log
@@ -142,7 +150,7 @@ Click the synhronize button in the synchronization dialog:
 **Voilà!** We can start working on our PyTvScripter project...
 
 
-## Create *git* repository
+## 2. Create *git* repository
 Go to VCS —> Import into version Control —> Create Git Repository...
 
 ![](assets/pycharm-remote-project-git-1.png)
@@ -150,7 +158,7 @@ Go to VCS —> Import into version Control —> Create Git Repository...
 ![](assets/pycharm-remote-project-git-2.png)
 
 
-## Share on GitHub
+## 3. Share on GitHub
 Go to VCS —> Import into version Control —> Share Project on GitHub... and login with you credentials
 
 ![](assets/pycharm-remote-project-git-3.png)
@@ -170,12 +178,18 @@ $ git rm --cached -r .idea
 ```
 
 
-## Credits
+## 4. Debug DISPLAY configuration
+To run remote application in GUI (for *guizero* for example), add DISPLAY configuration in session environment variables:
+
+![](file:///C:\Projects\Dev\App\msvc\App16\Room%20Control\Documentation\screenshots\config-display.png)
+
+
+## 5. Credits
 
 This guide is an adaptation of *Remote Programming of Raspberry Pi using PyCharm* by Gowrishankar S, published in 2016 at <a href="https://www.gowrishankarnath.com/remote-programming-of-raspberry-pi-using-pycharm.html" target="_blank">https://www.gowrishankarnath.com/remote-programming-of-raspberry-pi-using-pycharm.html</a>
 
 
-## Author
+## 6. Author
 
 **Marie FAURE** (Oct 1th, 2019)
 * company: FAURE SYSTEMS SAS
