@@ -253,3 +253,12 @@ This is the official documentation for the Raspberry Pi, written by the Raspberr
 * Setting up a Raspberry Pi as an access point in a standalone network (NAT): https://github.com/raspberrypi/documentation/blob/master/configuration/wireless/access-point.md
 * Wireless connectivity: https://github.com/raspberrypi/documentation/blob/master/configuration/wireless/README.md
 * Configuration: https://github.com/raspberrypi/documentation/blob/master/configuration/README.md
+
+
+## Author
+
+**Marie FAURE** (Oct 1th, 2019)
+* company: FAURE SYSTEMS SAS
+* mail: dev at faure dot systems
+* github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
+* web: <a href="https://www.live-escape.net/" target="_blank">Live Escape Grenoble</a>
