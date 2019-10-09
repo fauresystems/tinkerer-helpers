@@ -94,12 +94,12 @@ mosquitto -c /etc/mosquitto/mosquitto.conf
 ```
 
 ## Start mosquitto as a service on Raspberry boot
+
+### 1. Edit “mosquitto.service” file
 ```bash
 sudo nano /etc/systemd/system/mosquitto.service
 ```
-
-### 1. Add in “mosquitto.service” file
-See <https://goo.gl/wMCZFv> for more
+Add:
 ```bash
 [Unit]
 Description=Mosquitto MQTT Broker daemon
@@ -120,6 +120,7 @@ RestartSec=2
 [Install] 
 WantedBy=multi-user.target
 ```
+See <https://goo.gl/wMCZFv> for more.
 
 ### 2. Activate the service
 ```bash
