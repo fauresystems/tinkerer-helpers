@@ -1,6 +1,6 @@
 ﻿[<- back](README.md)
 
-# Git
+# Git on Windows
 1. Install Git on Windows
 2. Configure Git
 3. Set Git for local project (no server)

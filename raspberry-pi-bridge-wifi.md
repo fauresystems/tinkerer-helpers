@@ -1,7 +1,7 @@
 ﻿[<- back](README.md)
 
 # Make Raspberry Pi a Wifi Bridge
-We can use the Raspberry Pui as a Wifi Access Point to extend a Wifi network and we can setup this AP as a level 2 bridge:
+We can use the Raspberry Pi as a Wifi Access Point to extend a Wifi network and we can setup this AP as a level 2 bridge:
 1. RaspAP installation
 2. RaspAP web gui
 3. Setup as a Level 2 Bridge
