@@ -48,7 +48,7 @@ Successfully installed unidecode-1.0.23
 
 ## Author
 
-**Marie FAURE** (Oct 1th, 2019)
+**Marie FAURE** (Oct 9th, 2019)
 * company: FAURE SYSTEMS SAS
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
