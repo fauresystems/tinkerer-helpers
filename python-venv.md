@@ -63,6 +63,18 @@ Pygments==1.6
 Sphinx==1.2.2
 ```
 
+For Python 3 on Raspberry Pi.
+```bash
+$ pip3 freeze -l
+guizero==1.0.0
+mplayer.py==0.7.1
+paho-mqtt==1.3.1
+pyaml==17.12.1
+PyYAML==3.12
+SPI-Py==1.0
+wiringpi==2.44.4
+```
+
 Generate a requirements file and then install from it in another environment.
 ```bash
 $ env1/bin/pip freeze > requirements.txt
