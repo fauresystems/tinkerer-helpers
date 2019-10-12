@@ -3,6 +3,7 @@
 # Python venv (PyCharm)
 Create venv in a PyCharm project
 
+
 ## Add new venv in the project folder
 Choose *Add...* in File / Settings / Project: *Project name* / Project Interpreter:
 
@@ -14,6 +15,7 @@ In *Terminal* window run: `python -m pip install -U pip`
 It will probably fail, so force install with: `python -m pip install -U --force-reinstall pip`
 
 ![](assets/pycharm-venv-upgrade-pip.png)
+
 
 ## Install PyQt5, paho-mqtt and unicode
 
@@ -43,6 +45,28 @@ Collecting unidecode
     100% |████████████████████████████████| 245kB 5.4MB/s
 Installing collected packages: unidecode
 Successfully installed unidecode-1.0.23
+```
+
+
+## Project dependencies
+
+From https://pip.pypa.io/en/stable/reference/pip_freeze/
+
+
+Generate output suitable for a requirements file.
+```bash
+$ pip freeze
+docutils==0.11
+Jinja2==2.7.2
+MarkupSafe==0.19
+Pygments==1.6
+Sphinx==1.2.2
+```
+
+Generate a requirements file and then install from it in another environment.
+```bash
+$ env1/bin/pip freeze > requirements.txt
+$ env2/bin/pip install -r requirements.txt
 ```
 
 
