@@ -1,4 +1,4 @@
-﻿# Markdown helpers for Escape Room tinkerers
+# Markdown helpers for Escape Room tinkerers
 A collection of .md helpers for Escape Room tinkerers.
 
 ### Arduino
@@ -13,7 +13,8 @@ A collection of .md helpers for Escape Room tinkerers.
 ### Windows desktop
 * [Build QtMqtt with Visual Studio](mqtt-build-qtmqtt-visual-studio.md)
 * [Git on Windows](git.md)
-* [Python venv (PyCharm)](python-venv.md)
+* [Python venv (PyCharm)](python-venv-pycharm.md)
+* [Python *venv* (Windows command line)](python-venv-windows.md)
 * [VLC remote how-to](vlc-remote-how-to.md)
 
 ### IoT
@@ -30,3 +31,5 @@ A collection of .md helpers for Escape Room tinkerers.
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
 * web: <a href="https://www.live-escape.net/" target="_blank">Live Escape Grenoble</a>
+
+  [1]: python-venv-windows.md
