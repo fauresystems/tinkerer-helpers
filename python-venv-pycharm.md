@@ -1,10 +1,12 @@
 ﻿[<- back](README.md)
 
-# Python venv (PyCharm)
-Create venv in a PyCharm project
+# Python *venv* (PyCharm)
+Create *venv* in a PyCharm project.
+
+You may also consider [Python *venv* (Windows command line)](python-venv-windows.md) which is the recommended method to create *venv* for Room 2.0 plugins.
 
 
-## Add new venv in the project folder
+## Add new *venv* in the project folder
 Choose *Add...* in File / Settings / Project: *Project name* / Project Interpreter:
 
 ![](assets/pycharm-add-venv.png)
@@ -84,7 +86,7 @@ $ env2/bin/pip install -r requirements.txt
 
 ## Author
 
-**Marie FAURE** (Oct 9th, 2019)
+**Marie FAURE** (Dec 5th, 2019)
 * company: FAURE SYSTEMS SAS
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
