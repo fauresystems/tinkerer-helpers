@@ -11,6 +11,15 @@ Choose *Add...* in File / Settings / Project: *Project name* / Project Interpret
 
 ![](assets/pycharm-add-venv.png)
 
+Alternatively the virtual environment can be created during the creation of the project:
+
+![](assets/pycharm-venv.png)
+
+### Important
+Preferably, do NOT select the following options:
+* Inherit global site-packages
+* Make available to all projects
+
 ## Upgrade PIP
 In *Terminal* window run: `python -m pip install -U pip`
 
