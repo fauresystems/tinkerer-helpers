@@ -145,7 +145,7 @@ $ ps aux | grep python | grep -v \"grep python\" | grep script.py | awk \'{print
 
 Relaunch script.py:
 ```csharp
-$ ps aux | grep python | grep -v \"grep python\" | grep script.py | awk \'{print $2}\' | xargs kill -9 ";" sleep 3 && screen -d -m python3 ~/Room/Props/script.py -s %BROKER%
+$ ps aux | grep python | grep -v \"grep python\" | grep script.py | awk \'{print $2}\' | xargs kill -9 ";" sleep 3 && screen -d -m python3 ~/Room/Props/script.py -s %BROKER% 
 ```
 
 Reboot:
