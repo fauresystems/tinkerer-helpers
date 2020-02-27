@@ -3,7 +3,7 @@
 # Python *venv* (PyCharm)
 Create *venv* in a PyCharm project.
 
-You may also consider [Python *venv* (Windows command line)](python-venv-windows.md) which is the recommended method to create *venv* for Room 2.0 plugins.
+You may also consider [Python *venv* (Windows command line)](python-venv-windows.md) which is the recommended method to create *venv* for **Room** plugins.
 
 
 ## Add new *venv* in the project folder

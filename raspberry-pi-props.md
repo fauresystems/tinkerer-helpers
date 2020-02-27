@@ -1,7 +1,7 @@
 ﻿[<- back](README.md)
 
 # Raspberry Pi
-There are 3 types of applications that Room software suits very well and which require none or more or less advanced electronics knowledge (IoT, Raspberry Pi or Arduino):
+There are 3 types of applications that **Room** software suits very well and which require none or more or less advanced electronics knowledge (IoT, Raspberry Pi or Arduino):
 1. Preparation with NOOBS 3.0
 2. Headless HDMi rezolution
 3. Static IP address
