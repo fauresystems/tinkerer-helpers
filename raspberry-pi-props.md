@@ -41,7 +41,7 @@ Download NOOBS offlibe install from https://www.raspberrypi.org/downloads/noobs/
     
 ## 2. Headless HDMI rezolution
 
-* Order HDMKL dongle such as https://www.amazon.fr/s/url=search-alias%3Dcomputers&field-keywords=emulateur+hdmi
+* Order HDMI dummy plug such as <a href="https://www.amazon.com/s?k=hdmi+dummy+plug&ref=nb_sb_noss_2" target="_blank">https://www.amazon.com/s?k=hdmi+dummy+plug&ref=nb_sb_noss_2</a>
 * Edit */boot/config.txt*
     ```csharp
     $ sudo nano /boot/config.txt
