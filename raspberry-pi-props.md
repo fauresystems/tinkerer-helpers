@@ -180,7 +180,7 @@ su pi -c "cd ~/Room/Podium ; python3 podium.py > ~/startup.log 2>&1 &"
 exit 0
 ```
 
-## 8. MQTT treading issue when packet loss
+## 8. MQTT threading issue when packet loss
 
 Issues have been reported when using *paho-mqtt* in multithreaded applications:
 * with QoS 2
