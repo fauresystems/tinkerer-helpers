@@ -140,7 +140,7 @@ $ screen -d -m python3 ~/Room/Props/script.py -s %BROKER%
 
 Stop script.py:
 ```csharp
-$ ps aux | grep python | grep -v \"grep python\" | grep script.py | awk \'{print $2}\' | xargs kill -9
+$ ps aux | grep python | grep -v \"grep python\" | grep script.py | awk \'{print $2}\' | xargs kill -9 
 ```
 
 Relaunch script.py:
