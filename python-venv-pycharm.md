@@ -99,4 +99,4 @@ $ env2/bin/pip install -r requirements.txt
 * company: FAURE SYSTEMS SAS
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
-* web: <a href="https://www.live-escape.net/" target="_blank">Live Escape Grenoble</a>
+* web: <a href="https://faure.systems/" target="_blank">Faure Systems</a>
