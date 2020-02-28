@@ -15,7 +15,7 @@ There are 3 types of applications that **Room** software suits very well and whi
 
 Download NOOBS offline install from https://www.raspberrypi.org/downloads/noobs/ and unzip all files in a clean SD Card (16GB recommended)
 
-1. Boot on NOOBS, choose complete install anb proceed
+1. Boot on NOOBS, choose complete install and proceed
 2. Enable VNC and SSH in raspi-config
 3. Set passwords:
 
