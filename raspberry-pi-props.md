@@ -15,25 +15,25 @@ There are 3 types of applications that **Room** software suits very well and whi
 
 Download NOOBS offline install from https://www.raspberrypi.org/downloads/noobs/ and unzip all files in a clean SD Card (16GB recommended)
 
-1. Boot on NOOBS, choose complete install and proceed
-2. Enable VNC and SSH in raspi-config
-3. Set passwords:
-
-    ```csharp
-    $ passwd
-    -> for pi (former is raspberry)
-    $ sudo passwd root
-    -> for root
-    ```
+1. Let NOOBS boot 
+2. Check the box **Raspbian Full** installation
+3. Select your language and keyboard
+4. Click **Install(i)** and proceed (for a few minutes)
+5. When the installation is finished, reboot
+6. Complete the wizard that appeared on the first start:
+     * set country
+     * change password
+     * select WiFi network (if relevant)
+     * update software
     
-4. Update Raspbian:
+7. Update Raspbian:
 
     ```csharp
     $ sudo apt-get update
     $ sudo apt-get upgrade
     ```
     
-5. Add screen 	
+8. Add screen 	
 
     ```csharp
     $ sudo apt-get install screen
