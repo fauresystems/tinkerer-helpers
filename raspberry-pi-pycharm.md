@@ -191,7 +191,7 @@ This guide is an adaptation of *Remote Programming of Raspberry Pi using PyCharm
 
 ## 6. Author
 
-**Marie FAURE** (Oct 9th, 2019)
+**Faure Systems** (Oct 9th, 2019)
 * company: FAURE SYSTEMS SAS
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>

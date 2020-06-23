@@ -64,7 +64,7 @@ $ venv\Scripts\deactivate.bat
 
 ## Author
 
-**Marie FAURE** (Dec 5th, 2019)
+**Faure Systems** (Dec 5th, 2019)
 * company: FAURE SYSTEMS SAS
 * mail: dev at faure dot systems
 * github: <a href="https://github.com/fauresystems?tab=repositories" target="_blank">fauresystems</a>
